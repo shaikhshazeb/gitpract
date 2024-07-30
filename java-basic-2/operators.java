@@ -15,7 +15,7 @@
         System.out.println("Modulus of a and b is " + " " +(a%b));
 
 
-        //unary operaters
+        //unary operaters in java
 
         
         System.out.println(a++);//13
@@ -67,8 +67,8 @@
        System.out.println("The value of  n1 ^ n2 is "+(n1 ^ n2));
 
         //shift operators
-        System.err.println(n1<<n2);// n1 * 2 ^ 2
-        System.err.println(n1>>n2); // n1 / 2 ^ 2
+        System.err.println(n1<<n2);// n1 * 2 ^ 2 (LeftShift)
+        System.err.println(n1>>n2); // n1 / 2 ^ 2  (RightShift)
 
 
     }

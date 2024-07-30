@@ -61,15 +61,15 @@
        //bitwise operators
 
        int n1=10;
-       int n2=2;
+       int n2=20;
        System.out.println("The value of n1 & n2 is "+(n1 & n2));
        System.out.println("The value of n1 | n2 is "+(n1 | n2));
        System.out.println("The value of  n1 ^ n2 is "+(n1 ^ n2));
 
         //shift operators
         System.err.println(n1<<n2);// n1 * 2 ^ 2 (LeftShift)
-        System.err.println(n1>>n2); // n1 / 2 ^ 2  (RightShift)
-
+        System.out.println(n1>>n2); // n1 / 2 ^ 2  (RightShift) 10 /2 ^20
+        
 
     }
 }

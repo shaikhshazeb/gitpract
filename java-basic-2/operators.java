@@ -8,6 +8,7 @@
         //arithmatic operators
         int a=13;
         int b=6;
+        int c = a+b;
         System.out.println("Addition of a and b is " + " " +(a+b));
         System.out.println("substraction of a and b is " + " " +(a-b));
         System.out.println("Multiplication of a and b is " + " " +(a*b));
